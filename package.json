@@ -7,6 +7,9 @@
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "check-format": "prettier --check .",
+    "check-lint": "eslint . --ext ts --ext tsx --ext js  --ext jsx",
+    "format": "prettier --write .",
     "prepare": "husky install"
   },
   "lint-staged": {

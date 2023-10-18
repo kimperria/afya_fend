@@ -5,9 +5,11 @@
   },
   "extends": [
     "plugin:react/recommended",
+    "next/core-web-vitals",
     "airbnb",
-    "plugin:@next/next/recommended",
-    "prettier"
+    "plugin:prettier/recommended",
+    "prettier",
+    "plugin:@next/next/recommended"
   ],
   "parserOptions": {
     "ecmaVersion": "latest",
