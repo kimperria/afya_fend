@@ -1,6 +1,8 @@
 #!/usr/bin/env sh
 . "$(dirname -- "$0")/_/husky.sh"
 
+npx lint-staged
+
 echo '🏗️👷 Styling, testing and checking your code before committing'
 
 # Check Prettier standars
@@ -20,5 +22,3 @@ npm run check-lint ||
 
 # If everything passes... Now we can commit
 echo '✅✅✅✅ You win this time... I am committing this now. ✅✅✅✅'
-
-npx lint-staged
