@@ -6,7 +6,6 @@
   "extends": [
     "plugin:react/recommended",
     "next/core-web-vitals",
-    "airbnb",
     "plugin:prettier/recommended",
     "prettier",
     "plugin:@next/next/recommended"
@@ -20,6 +19,8 @@
     "prettier/prettier": ["error"],
     "import/no-cycle": "error",
     "react/react-in-jsx-scope": "off",
-    "react/prop-types": "off"
+    "react/prop-types": "off",
+    "import/named-as-default": "off",
+    "import/no-unresolved": "off"
   }
 }
