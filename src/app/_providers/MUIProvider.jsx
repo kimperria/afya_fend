@@ -5,7 +5,7 @@ import { CssBaseline, StyledEngineProvider } from '@mui/material';
 import theme from '../../common/themes';
 import config from '@/common/config';
 
-export default function MUISetup({ children }) {
+export default function MUIProvider({ children }) {
   return (
     <StyledEngineProvider injectFirst>
       <ThemeProvider theme={theme(config)}>
