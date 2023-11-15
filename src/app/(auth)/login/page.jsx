@@ -12,6 +12,7 @@ import AuthCardWrapper from '@/common/layouts/auth-wrapper/AuthCardWrapper';
 import Link from 'next/link';
 import Logo from '@/common/components/ui-component/Logo';
 import AuthFooter from '@/common/components/ui-component/AuthFooter';
+import AuthLogin from '@/common/components/authentication/auth-forms/AuthLogin';
 
 export default function Login() {
   const theme = useTheme();
@@ -77,7 +78,7 @@ export default function Login() {
                       </Grid>
                     </Grid>
                     <Grid item xs={12}>
-                      <h4>Auth Form</h4>
+                      <AuthLogin />
                     </Grid>
                     <Grid item xs={12}>
                       <Divider />
