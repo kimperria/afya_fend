@@ -21,6 +21,7 @@
     "react/react-in-jsx-scope": "off",
     "react/prop-types": "off",
     "import/named-as-default": "off",
-    "import/no-unresolved": "off"
+    "import/no-unresolved": "off",
+    "react/display-name": "off"
   }
 }
