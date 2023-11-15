@@ -28,6 +28,7 @@
     "eslint-plugin-prettier": "^5.0.1",
     "next": "latest",
     "prettier": "^3.0.3",
+    "prop-types": "^15.8.1",
     "react": "latest",
     "react-dom": "latest",
     "sass": "^1.69.5"
